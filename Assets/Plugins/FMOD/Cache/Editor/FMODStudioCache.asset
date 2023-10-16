@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8838438705329171573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Rooms.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod Banks /Desktop/Rooms.bank
+  Name: Rooms
+  StudioPath: bank:/Rooms
+  lastModified: 638330777351578873
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-8637250009146502898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,8 +37,8 @@ MonoBehaviour:
     Data3: 628418730
     Data4: -1973600309
   Banks:
-  - {fileID: 8650634314644656453}
-  - {fileID: 2023885775098746327}
+  - {fileID: 3175948719106621963}
+  - {fileID: 8455740260384967923}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -28,26 +46,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-7735869191180742175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Character.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Fmod Stuff/GermBlaster 2024 Try2/GB 24 2/Build/Desktop/Character.bank
-  Name: Character
-  StudioPath: bank:/Character
-  lastModified: 638329582264566772
-  FileSizes:
-  - Name: Desktop
-    Value: 79296
-  Exists: 1
 --- !u!114 &-5191522415297899626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,7 +65,7 @@ MonoBehaviour:
     Data3: -2025084529
     Data4: 1120012454
   Banks:
-  - {fileID: 8650634314644656453}
+  - {fileID: 3175948719106621963}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -94,7 +92,7 @@ MonoBehaviour:
     Data3: 2120231103
     Data4: 1865348593
   Banks:
-  - {fileID: 2023885775098746327}
+  - {fileID: 8455740260384967923}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -121,8 +119,8 @@ MonoBehaviour:
     Data3: 78507671
     Data4: 808128372
   Banks:
-  - {fileID: 8650634314644656453}
-  - {fileID: 2023885775098746327}
+  - {fileID: 3175948719106621963}
+  - {fileID: 8455740260384967923}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -173,7 +171,7 @@ MonoBehaviour:
     Data3: -2094177872
     Data4: 2131536610
   Banks:
-  - {fileID: 8650634314644656453}
+  - {fileID: 3175948719106621963}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -200,7 +198,7 @@ MonoBehaviour:
     Data3: -670676846
     Data4: -1849820837
   Banks:
-  - {fileID: 6045300421642491982}
+  - {fileID: -8838438705329171573}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -227,7 +225,7 @@ MonoBehaviour:
     Data3: -181382755
     Data4: 1166736353
   Banks:
-  - {fileID: 2023885775098746327}
+  - {fileID: 8455740260384967923}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -254,7 +252,7 @@ MonoBehaviour:
     Data3: -843414098
     Data4: 1994058145
   Banks:
-  - {fileID: 6045300421642491982}
+  - {fileID: -8838438705329171573}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -262,6 +260,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2924
+--- !u!114 &-1197302143012961054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod Banks /Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638330777338295007
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-919430163998455293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,7 +297,7 @@ MonoBehaviour:
     Data3: 701682341
     Data4: 760365922
   Banks:
-  - {fileID: 8650634314644656453}
+  - {fileID: 3175948719106621963}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -289,26 +305,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-452225319844196466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Fmod Stuff/GermBlaster 2024 Try2/GB 24 2/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638329582264609884
-  FileSizes:
-  - Name: Desktop
-    Value: 1036
-  Exists: 1
 --- !u!114 &-215796821807289854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,7 +324,7 @@ MonoBehaviour:
     Data3: 1366332807
     Data4: 830026345
   Banks:
-  - {fileID: 8650634314644656453}
+  - {fileID: 3175948719106621963}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -355,7 +351,7 @@ MonoBehaviour:
     Data3: -243183467
     Data4: -1636678516
   Banks:
-  - {fileID: 8650634314644656453}
+  - {fileID: 3175948719106621963}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -376,13 +372,13 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 584798209479324809}
-  - {fileID: -7735869191180742175}
-  - {fileID: -452225319844196466}
-  - {fileID: 2369800319732043941}
-  - {fileID: 6045300421642491982}
-  - {fileID: 8650634314644656453}
-  - {fileID: 2023885775098746327}
+  - {fileID: 5501180982174188996}
+  - {fileID: 6300624028044987630}
+  - {fileID: -1197302143012961054}
+  - {fileID: 7807531766665949839}
+  - {fileID: -8838438705329171573}
+  - {fileID: 3175948719106621963}
+  - {fileID: 8455740260384967923}
   EditorEvents:
   - {fileID: 1048036725936631329}
   - {fileID: 8474010853783278229}
@@ -408,31 +404,11 @@ MonoBehaviour:
   - {fileID: 6681266324369704865}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -452225319844196466}
+  - {fileID: -1197302143012961054}
   StringsBanks:
-  - {fileID: 584798209479324809}
-  cacheTime: 638329582266126560
+  - {fileID: 5501180982174188996}
+  cacheTime: 638330777355267615
   cacheVersion: 131608
---- !u!114 &584798209479324809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Fmod Stuff/GermBlaster 2024 Try2/GB 24 2/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638329582264622235
-  FileSizes:
-  - Name: Desktop
-    Value: 2064
-  Exists: 1
 --- !u!114 &703181370341251375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,7 +428,7 @@ MonoBehaviour:
     Data3: -2031740014
     Data4: 384330215
   Banks:
-  - {fileID: 8650634314644656453}
+  - {fileID: 3175948719106621963}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -479,7 +455,7 @@ MonoBehaviour:
     Data3: -1379769451
     Data4: -1339936360
   Banks:
-  - {fileID: 8650634314644656453}
+  - {fileID: 3175948719106621963}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -506,7 +482,7 @@ MonoBehaviour:
     Data3: -263710031
     Data4: 321344370
   Banks:
-  - {fileID: -7735869191180742175}
+  - {fileID: 6300624028044987630}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -514,46 +490,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &2023885775098746327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Weapon.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Fmod Stuff/GermBlaster 2024 Try2/GB 24 2/Build/Desktop/Weapon.bank
-  Name: Weapon
-  StudioPath: bank:/Weapon
-  lastModified: 638329108382268278
-  FileSizes:
-  - Name: Desktop
-    Value: 150144
-  Exists: 1
---- !u!114 &2369800319732043941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Fmod Stuff/GermBlaster 2024 Try2/GB 24 2/Build/Desktop/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 638329582264816275
-  FileSizes:
-  - Name: Desktop
-    Value: 1045792
-  Exists: 1
 --- !u!114 &2591190368540173539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,7 +509,7 @@ MonoBehaviour:
     Data3: 1462742658
     Data4: 1317068703
   Banks:
-  - {fileID: 8650634314644656453}
+  - {fileID: 3175948719106621963}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -581,6 +517,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3175948719106621963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod Banks /Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638330777354300905
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4441165309061661563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,7 +554,7 @@ MonoBehaviour:
     Data3: -1002099581
     Data4: 126379164
   Banks:
-  - {fileID: -7735869191180742175}
+  - {fileID: 6300624028044987630}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -627,7 +581,7 @@ MonoBehaviour:
     Data3: 273415354
     Data4: -1757922568
   Banks:
-  - {fileID: 8650634314644656453}
+  - {fileID: 3175948719106621963}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -635,7 +589,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &6045300421642491982
+--- !u!114 &5501180982174188996
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -645,15 +599,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Rooms.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../../Fmod Stuff/GermBlaster 2024 Try2/GB 24 2/Build/Desktop/Rooms.bank
-  Name: Rooms
-  StudioPath: bank:/Rooms
-  lastModified: 638329144507108405
+  Path: Fmod Banks /Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638330777338301781
   FileSizes:
-  - Name: Desktop
-    Value: 455552
+  - Name: 
+    Value: 2064
+  Exists: 1
+--- !u!114 &6300624028044987630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Character.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod Banks /Desktop/Character.bank
+  Name: Character
+  StudioPath: bank:/Character
+  lastModified: 638330777338276331
+  FileSizes: []
   Exists: 1
 --- !u!114 &6681266324369704865
 MonoBehaviour:
@@ -674,7 +646,7 @@ MonoBehaviour:
     Data3: -1944341871
     Data4: -2031705420
   Banks:
-  - {fileID: 2023885775098746327}
+  - {fileID: 8455740260384967923}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -701,7 +673,7 @@ MonoBehaviour:
     Data3: 890962591
     Data4: 864338795
   Banks:
-  - {fileID: 6045300421642491982}
+  - {fileID: -8838438705329171573}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -728,7 +700,7 @@ MonoBehaviour:
     Data3: 1631677069
     Data4: 860471576
   Banks:
-  - {fileID: 2023885775098746327}
+  - {fileID: 8455740260384967923}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -736,6 +708,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7807531766665949839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod Banks /Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638330777348413212
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7860724911761427703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -755,7 +745,7 @@ MonoBehaviour:
     Data3: -1324141394
     Data4: -512011668
   Banks:
-  - {fileID: 2369800319732043941}
+  - {fileID: 7807531766665949839}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -764,6 +754,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60000
+--- !u!114 &8455740260384967923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Weapon.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod Banks /Desktop/Weapon.bank
+  Name: Weapon
+  StudioPath: bank:/Weapon
+  lastModified: 638330777355267615
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8474010853783278229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -783,7 +791,7 @@ MonoBehaviour:
     Data3: 1193570210
     Data4: 204159103
   Banks:
-  - {fileID: -7735869191180742175}
+  - {fileID: 6300624028044987630}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -791,23 +799,3 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &8650634314644656453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
-  m_EditorClassIdentifier: 
-  Path: ../../Fmod Stuff/GermBlaster 2024 Try2/GB 24 2/Build/Desktop/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 638329582266126560
-  FileSizes:
-  - Name: Desktop
-    Value: 515296
-  Exists: 1
