@@ -15,7 +15,11 @@ public class AmmoInventoryEntry
 
 public class Controller : MonoBehaviour
 {
-    public string FTSsound;
+    public string ftsSound;
+    public string ftsJump;
+    public string ftsLand;
+
+
     //Urg that's ugly, maybe find a better way
     public static Controller Instance { get; protected set; }
 
@@ -145,7 +149,9 @@ public class Controller : MonoBehaviour
                 m_VerticalSpeed = JumpSpeed;
                 m_Grounded = false;
                 loosedGrounding = true;
-                FootstepPlayer.PlayClip(JumpingAudioCLip, 0.8f,1.1f);
+                //FootstepPlayer.PlayClip(JumpingAudioCLip, 0.8f,1.1f);
+
+                FMODUnity.RuntimeManager.PlayOneShot(ftsJump, GetComponent<Transform>().position);
             }
             
             bool running = m_Weapons[m_CurrentWeapon].CurrentState == Weapon.WeaponState.Idle && Input.GetButton("Run");
@@ -234,7 +240,8 @@ public class Controller : MonoBehaviour
 
         if (!wasGrounded && m_Grounded)
         {
-            FootstepPlayer.PlayClip(LandingAudioClip, 0.8f,1.1f);
+            //FootstepPlayer.PlayClip(LandingAudioClip, 0.8f,1.1f);
+            FMODUnity.RuntimeManager.PlayOneShot(ftsLand, GetComponent<Transform>().position);
         }
     }
 
@@ -315,6 +322,6 @@ public class Controller : MonoBehaviour
     public void PlayFootstep()
     {
         //FootstepPlayer.PlayRandom();
-        FMODUnity.RuntimeManager.PlayOneShot(FTSsound, GetComponent<Transform>().position);
+        FMODUnity.RuntimeManager.PlayOneShot(ftsSound, GetComponent<Transform>().position);
     }
 }

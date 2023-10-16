@@ -6,6 +6,9 @@ using Vector3 = UnityEngine.Vector3;
 
 public class Target : MonoBehaviour
 {
+    public string creatureHit;
+    
+
     public float health = 5.0f;
     public int pointValue;
 
@@ -40,9 +43,10 @@ public class Target : MonoBehaviour
         m_CurrentHealth -= damage;
         
         if(HitPlayer != null)
-            HitPlayer.PlayRandom();
-        
-        if(m_CurrentHealth > 0)
+            //HitPlayer.PlayRandom();
+            FMODUnity.RuntimeManager.PlayOneShot(creatureHit, GetComponent<Transform>().position);
+
+        if (m_CurrentHealth > 0)
             return;
 
         Vector3 position = transform.position;
