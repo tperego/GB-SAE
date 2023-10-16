@@ -15,6 +15,7 @@ public class AmmoInventoryEntry
 
 public class Controller : MonoBehaviour
 {
+    public string FTSsound;
     //Urg that's ugly, maybe find a better way
     public static Controller Instance { get; protected set; }
 
@@ -313,6 +314,7 @@ public class Controller : MonoBehaviour
 
     public void PlayFootstep()
     {
-        FootstepPlayer.PlayRandom();
+        //FootstepPlayer.PlayRandom();
+        FMODUnity.RuntimeManager.PlayOneShot(FTSsound, GetComponent<Transform>().position);
     }
 }

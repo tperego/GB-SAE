@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Rooms.bank
   Name: Rooms
   StudioPath: bank:/Rooms
-  lastModified: 638330777351578873
+  lastModified: 638330778952373453
   FileSizes: []
   Exists: 1
 --- !u!114 &-8637250009146502898
@@ -275,7 +275,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638330777338295007
+  lastModified: 638330778952307895
   FileSizes: []
   Exists: 1
 --- !u!114 &-919430163998455293
@@ -407,7 +407,7 @@ MonoBehaviour:
   - {fileID: -1197302143012961054}
   StringsBanks:
   - {fileID: 5501180982174188996}
-  cacheTime: 638330777355267615
+  cacheTime: 638330778952416002
   cacheVersion: 131608
 --- !u!114 &703181370341251375
 MonoBehaviour:
@@ -532,7 +532,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638330777354300905
+  lastModified: 638330778952402851
   FileSizes: []
   Exists: 1
 --- !u!114 &4441165309061661563
@@ -604,7 +604,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638330777338301781
+  lastModified: 638330778952310077
   FileSizes:
   - Name: 
     Value: 2064
@@ -624,7 +624,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 638330777338276331
+  lastModified: 638330778952305670
   FileSizes: []
   Exists: 1
 --- !u!114 &6681266324369704865
@@ -723,7 +723,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638330777348413212
+  lastModified: 638330778952345778
   FileSizes: []
   Exists: 1
 --- !u!114 &7860724911761427703
@@ -769,7 +769,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Weapon.bank
   Name: Weapon
   StudioPath: bank:/Weapon
-  lastModified: 638330777355267615
+  lastModified: 638330778952416002
   FileSizes: []
   Exists: 1
 --- !u!114 &8474010853783278229
