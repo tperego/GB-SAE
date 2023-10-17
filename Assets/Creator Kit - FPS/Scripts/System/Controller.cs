@@ -19,6 +19,8 @@ public class Controller : MonoBehaviour
     public string ftsJump;
     public string ftsLand;
 
+    
+
 
     //Urg that's ugly, maybe find a better way
     public static Controller Instance { get; protected set; }
@@ -324,4 +326,6 @@ public class Controller : MonoBehaviour
         //FootstepPlayer.PlayRandom();
         FMODUnity.RuntimeManager.PlayOneShot(ftsSound, GetComponent<Transform>().position);
     }
+
+   
 }

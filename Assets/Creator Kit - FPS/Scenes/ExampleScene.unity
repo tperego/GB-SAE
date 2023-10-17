@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.65
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.24511118, g: 0.23583394, b: 0.25094488, a: 0.65}
+  m_IndirectSpecularColor: {r: 0.24508871, g: 0.23578627, b: 0.25094676, a: 0.65}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2605,6 +2605,99 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 955031190}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &643836447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 643836451}
+  - component: {fileID: 643836450}
+  - component: {fileID: 643836449}
+  - component: {fileID: 643836448}
+  m_Layer: 0
+  m_Name: Zone 4 Tension
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &643836448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643836447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: 'Intensity '
+      Value: 0
+    - Name: Music Zones
+      Value: 0
+    - Name: Music Horizontal
+      Value: 0
+  TriggerEvent: 4
+--- !u!114 &643836449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643836447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: 'Intensity '
+      Value: 1
+    - Name: Music Zones
+      Value: 1
+    - Name: Music Horizontal
+      Value: 1
+  TriggerEvent: 3
+--- !u!65 &643836450
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643836447}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.04, y: 6.91, z: 12.4}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &643836451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643836447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 30.6, y: 4.21, z: 79.65}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &649820561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2727,6 +2820,95 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 649820561}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &670291523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 670291527}
+  - component: {fileID: 670291526}
+  - component: {fileID: 670291525}
+  - component: {fileID: 670291524}
+  m_Layer: 0
+  m_Name: Zone 5 Joy Excitement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &670291524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670291523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: 'Intensity '
+      Value: 0
+    - Name: Music Horizontal
+      Value: 0
+  TriggerEvent: 4
+--- !u!114 &670291525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670291523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: 'Intensity '
+      Value: 1
+    - Name: Music Horizontal
+      Value: 1
+  TriggerEvent: 3
+--- !u!65 &670291526
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670291523}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 39.57, y: 6.91, z: 7.6}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &670291527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670291523}
+  m_LocalRotation: {x: -0, y: 0.6990111, z: -0, w: 0.71511084}
+  m_LocalPosition: {x: 31.9, y: 4.21, z: 30.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 88.695, z: 0}
 --- !u!1 &670547377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2889,7 +3071,7 @@ GameObject:
   - component: {fileID: 738559257}
   - component: {fileID: 738559260}
   m_Layer: 0
-  m_Name: Zone 1
+  m_Name: Zone 1 Fear and Tension
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2911,6 +3093,8 @@ MonoBehaviour:
   Emitters:
   - Target: {fileID: 274270200}
     Params:
+    - Name: 'Intensity '
+      Value: 1
     - Name: Music Horizontal
       Value: 1
   TriggerEvent: 3
@@ -2925,7 +3109,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.47, y: 6.91, z: 7.14}
+  m_Size: {x: 7.47, y: 6.91, z: 15.18}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &738559259
 Transform:
@@ -2935,7 +3119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738559256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.35, y: 4.21, z: 14.73}
+  m_LocalPosition: {x: -4.35, y: 4.21, z: 17.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2958,6 +3142,8 @@ MonoBehaviour:
   Emitters:
   - Target: {fileID: 274270200}
     Params:
+    - Name: 'Intensity '
+      Value: 0
     - Name: Music Horizontal
       Value: 0
   TriggerEvent: 4
@@ -3748,6 +3934,95 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1457023252}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &915482079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 915482083}
+  - component: {fileID: 915482082}
+  - component: {fileID: 915482081}
+  - component: {fileID: 915482080}
+  m_Layer: 0
+  m_Name: Zone 5 MissionMystery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &915482080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915482079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: 'Intensity '
+      Value: 0
+    - Name: Music Horizontal
+      Value: 0
+  TriggerEvent: 4
+--- !u!114 &915482081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915482079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: 'Intensity '
+      Value: 1
+    - Name: Music Horizontal
+      Value: 1
+  TriggerEvent: 3
+--- !u!65 &915482082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915482079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.95, y: 6.91, z: 7.6}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &915482083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915482079}
+  m_LocalRotation: {x: -0, y: -0.088852085, z: -0, w: 0.99604493}
+  m_LocalPosition: {x: 26.5, y: 4.21, z: 64.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: -10.195, z: 0}
 --- !u!1001 &916814986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4826,7 +5101,7 @@ GameObject:
   - component: {fileID: 1165073602}
   - component: {fileID: 1165073605}
   m_Layer: 0
-  m_Name: Zone 2
+  m_Name: Zone 2 Instant Violence and Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4848,6 +5123,8 @@ MonoBehaviour:
   Emitters:
   - Target: {fileID: 274270200}
     Params:
+    - Name: Music Zones
+      Value: 1
     - Name: Music Horizontal
       Value: 1
   TriggerEvent: 3
@@ -4862,7 +5139,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.47, y: 6.91, z: 5.48}
+  m_Size: {x: 16.03, y: 6.91, z: 14.97}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1165073604
 Transform:
@@ -4872,7 +5149,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165073601}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.17, y: 4.21, z: 31.76}
+  m_LocalPosition: {x: -0.5, y: 4.21, z: 37.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4895,6 +5172,8 @@ MonoBehaviour:
   Emitters:
   - Target: {fileID: 274270200}
     Params:
+    - Name: Music Zones
+      Value: 0
     - Name: Music Horizontal
       Value: 0
   TriggerEvent: 4
@@ -8566,6 +8845,99 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2062638404}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2068406572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068406576}
+  - component: {fileID: 2068406575}
+  - component: {fileID: 2068406574}
+  - component: {fileID: 2068406573}
+  m_Layer: 0
+  m_Name: Zone 3 Instant Happiness
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2068406573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068406572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: 'Intensity '
+      Value: 0
+    - Name: Music Zones
+      Value: 0
+    - Name: Music Horizontal
+      Value: 0
+  TriggerEvent: 4
+--- !u!114 &2068406574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068406572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: 'Intensity '
+      Value: 1
+    - Name: Music Zones
+      Value: 1
+    - Name: Music Horizontal
+      Value: 1
+  TriggerEvent: 3
+--- !u!65 &2068406575
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068406572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.04, y: 6.91, z: 14.28}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &2068406576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068406572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.1, y: 4.21, z: 67.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2092518072
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2699925001785584995}
   - component: {fileID: 8587774576786866763}
-  - component: {fileID: 482135225489720056}
   m_Layer: 9
   m_Name: Healmatic500
   m_TagString: Untagged
@@ -46,8 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 625ccb94bf93077498982c16ee690870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponSoundShot: event:/Gun/SFX_MachinegunShoot
-  weaponSoundReload: event:/Gun/SFX_MachinegunReload
   triggerType: 1
   weaponType: 0
   fireRate: 0.3
@@ -64,109 +61,14 @@ MonoBehaviour:
     screenShakeMultiplier: 1
   FireAnimationClip: {fileID: 7400000, guid: 60d376dc37f821b4ea56e75a4a0ad65a, type: 2}
   ReloadAnimationClip: {fileID: 7400004, guid: 48d0d593c4a87604d8229843efb1af29, type: 3}
-  FireAudioClip: {fileID: 8300000, guid: fbc2b14268d715446890c0fcedb6bd18, type: 3}
-  ReloadAudioClip: {fileID: 8300000, guid: 4fa47482629cb5e4ea45c714aee0165f, type: 3}
+  FireAudioClip: {fileID: 8300000, guid: 157e1aad28f6f4123a63a26ad2166bfc, type: 3}
+  ReloadAudioClip: {fileID: 8300000, guid: d7b8d0ad2ba814269a7e5bf16eaca7d7, type: 3}
+  weaponSoundShot: event:/Gun/SFX_PistolShoot
+  weaponReload: event:/Gun/SFX_PistolReload
   PrefabRayTrail: {fileID: 1691346627199228128, guid: bc513dca9b359aa49aac8365c74ad13d,
     type: 3}
   DisabledOnEmpty: 0
   AmmoDisplay: {fileID: 7688721026006519933}
---- !u!82 &482135225489720056
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3234742015143470754}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 243422288981298744, guid: d145ef7ec5c612648aba1716a7f53ac9,
-    type: 2}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.7
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &3696439805872854315
 PrefabInstance:
   m_ObjectHideFlags: 0

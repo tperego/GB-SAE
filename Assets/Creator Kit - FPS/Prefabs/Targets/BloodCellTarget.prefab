@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6961856894248427335}
   m_RootOrder: 2
@@ -140,8 +141,9 @@ GameObject:
   - component: {fileID: 6754320747944606146}
   - component: {fileID: 613060378875714941}
   - component: {fileID: 6689394087353256158}
+  - component: {fileID: 6575452907615783985}
   m_Layer: 10
-  m_Name: BloodCell
+  m_Name: BloodCellTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,6 +159,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8605128913963383879}
   - {fileID: 7537185215710572537}
@@ -192,6 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21572170bf3eef94dba3f7ca0f06525a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  creatureHit: event:/Blood Cell/BloodCellHit
   health: 3
   pointValue: -5
   DestroyedEffect: {fileID: 0}
@@ -211,6 +215,37 @@ CapsuleCollider:
   m_Height: 1.7
   m_Direction: 0
   m_Center: {x: -0.008023421, y: 0.7293066, z: 0}
+--- !u!114 &6575452907615783985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2742523207603312984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1018375651
+      Data2: 1279835053
+      Data3: -2031740014
+      Data4: 384330215
+    Path: event:/Blood Cell/SFX_RedBloodcellIdle
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &6681335294391022138
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +274,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6961856894248427335}
   m_RootOrder: 1
@@ -373,6 +409,10 @@ PrefabInstance:
       value: BloodCell
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -385,6 +425,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -394,14 +438,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8226672356b74174cbe023b9736222f5, type: 3}

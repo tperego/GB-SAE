@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8451913374945288254}
   - component: {fileID: 521019951643201760}
-  - component: {fileID: 4346231888284757310}
+  - component: {fileID: -5188896536214271966}
   m_Layer: 9
   m_Name: GermOBlaster
   m_TagString: Untagged
@@ -62,111 +62,32 @@ MonoBehaviour:
     screenShakeMultiplier: 1
   FireAnimationClip: {fileID: 7400006, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
   ReloadAnimationClip: {fileID: 7400008, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
-  FireAudioClip: {fileID: 8300000, guid: 79c781879da4b6c4f8c7cd79fd034759, type: 3}
-  ReloadAudioClip: {fileID: 8300000, guid: 53b8e7c6ac6cd6d49977438b25dacfc7, type: 3}
-  weaponSoundShot: event:/Gun/SFX_PistolShoot
-  weaponReload: event:/Gun/SFX_PistolReload
+  FireAudioClip: {fileID: 8300000, guid: 157e1aad28f6f4123a63a26ad2166bfc, type: 3}
+  ReloadAudioClip: {fileID: 8300000, guid: d7b8d0ad2ba814269a7e5bf16eaca7d7, type: 3}
+  weaponSoundShot: event:/Gun/SFX_MachinegunShoot
+  weaponReload: event:/Gun/SFX_MachinegunReload
   PrefabRayTrail: {fileID: 1691346627199228128, guid: bc513dca9b359aa49aac8365c74ad13d,
     type: 3}
   DisabledOnEmpty: 0
   AmmoDisplay: {fileID: 1919817251683802923}
---- !u!82 &4346231888284757310
-AudioSource:
+--- !u!114 &-5188896536214271966
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8613203814553789430}
-  m_Enabled: 0
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 243422288981298744, guid: d145ef7ec5c612648aba1716a7f53ac9,
-    type: 2}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 7
+  UnloadEvent: 8
+  Banks:
+  - Weapon
+  CollisionTag: 
+  PreloadSamples: 0
 --- !u!1001 &2198550043461616411
 PrefabInstance:
   m_ObjectHideFlags: 0

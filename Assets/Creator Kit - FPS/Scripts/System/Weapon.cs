@@ -224,7 +224,7 @@ public class Weapon : MonoBehaviour
         
         m_Animator.SetTrigger("fire");
 
-        m_Source.pitch = Random.Range(0.7f, 1.0f);
+        //m_Source.pitch = Random.Range(0.7f, 1.0f);
         //m_Source.PlayOneShot(FireAudioClip);
         FMODUnity.RuntimeManager.PlayOneShot(weaponSoundShot, GetComponent<Transform>().position);
 
@@ -331,9 +331,10 @@ public class Weapon : MonoBehaviour
 
         if (ReloadAudioClip != null)
         {
-            m_Source.pitch = Random.Range(0.7f, 1.0f);
+            //m_Source.pitch = Random.Range(0.7f, 1.0f);
             //m_Source.PlayOneShot(ReloadAudioClip);
             FMODUnity.RuntimeManager.PlayOneShot(weaponReload, GetComponent<Transform>().position);
+
         }
 
         int chargeInClip = Mathf.Min(remainingBullet, clipSize - m_ClipContent);
