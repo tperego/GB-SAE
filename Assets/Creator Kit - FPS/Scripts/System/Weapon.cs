@@ -66,8 +66,12 @@ public class Weapon : MonoBehaviour
     [Header("Audio Clips")]
     public AudioClip FireAudioClip;
     public AudioClip ReloadAudioClip;
+
+    [Header("FMOD Events Clips")]
     public string weaponSoundShot;
     public string weaponReload;
+
+
 
     [Header("Visual Settings")]
     public LineRenderer PrefabRayTrail;
@@ -531,8 +535,8 @@ public class WeaponEditor : Editor
        m_FireAudioClipProp = serializedObject.FindProperty("FireAudioClip");
        m_ReloadAudioClipProp = serializedObject.FindProperty("ReloadAudioClip");
 
-        tp_FmodShotProp = serializedObject.FindProperty("weaponSoundShot");
-        tp_FmodReloadProp = serializedObject.FindProperty("weaponReload");
+       tp_FmodShotProp = serializedObject.FindProperty("weaponSoundShot");
+       tp_FmodReloadProp = serializedObject.FindProperty("weaponReload");
 
         m_PrefabRayTrailProp = serializedObject.FindProperty("PrefabRayTrail");
        m_AmmoDisplayProp = serializedObject.FindProperty("AmmoDisplay");
