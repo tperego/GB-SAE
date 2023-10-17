@@ -5,6 +5,7 @@ using UnityEngine.Serialization;
 
 public class DissolveAction : GameAction
 {
+   
     public float DissolveEffectTime = 2;
     public AnimationCurve FadeIn;
 
@@ -51,6 +52,7 @@ public class DissolveAction : GameAction
             foreach (var gameAction in FinishedAction)
             {
                 gameAction.Activated();
+                
             }
             
             Destroy(gameObject);

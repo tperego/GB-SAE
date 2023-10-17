@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
-{    
+{
+
+    public string explosionGrenade;
+
     static Collider[] s_SphereCastPool = new Collider[32];
     
     public bool DestroyedOnHit = true;
@@ -41,6 +44,7 @@ public class Projectile : MonoBehaviour
     {
         if (DestroyedOnHit)
         {
+            FMODUnity.RuntimeManager.PlayOneShot(explosionGrenade, GetComponent<Transform>().position);
             Destroy();
         }
     }
@@ -71,7 +75,8 @@ public class Projectile : MonoBehaviour
 
         source.transform.position = position;
         source.pitch = Random.Range(0.8f, 1.1f);
-        source.PlayOneShot(DestroyedSound);
+        //source.PlayOneShot(DestroyedSound);
+        FMODUnity.RuntimeManager.PlayOneShot(explosionGrenade, GetComponent<Transform>().position);
     }
 
     void Update()
