@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{98803a2a-7b83-42cc-9f02-1b356bc38433}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>SFX_Acid</value>
 		</property>
@@ -46,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{c649e2fe-d532-446a-b47c-e961ff383d11}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{29522295-c2c2-4823-b228-afd542aa10f1}</destination>
 		</relationship>
@@ -53,7 +59,7 @@
 			<destination>{5c029509-cdd9-40bd-b7b1-d249ab4af04c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e349200f-eda1-4bd2-b1c7-9710133bb678}</destination>
+			<destination>{2c2b8958-9f87-4fe8-aece-d68a14aaa32f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{71350dc2-be27-41ef-908c-4dae2f624425}" />

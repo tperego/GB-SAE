@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{82dcc54c-8455-4330-9248-06d85bf9bd91}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>BrainRoom</value>
 		</property>
@@ -46,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{9ac57dfb-6e04-4552-948d-6714964570c5}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{93b137e8-1687-4a02-a1ef-64badff7cbcc}</destination>
 		</relationship>
@@ -53,7 +59,7 @@
 			<destination>{503a0f19-81d9-457c-b46c-287fee763e98}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e349200f-eda1-4bd2-b1c7-9710133bb678}</destination>
+			<destination>{2c2b8958-9f87-4fe8-aece-d68a14aaa32f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b4a3186c-c173-4b9c-b6e4-67a3cd8fc553}" />
