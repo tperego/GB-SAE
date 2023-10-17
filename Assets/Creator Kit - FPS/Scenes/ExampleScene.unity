@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.65
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.24508871, g: 0.23578627, b: 0.25094676, a: 0.65}
+  m_IndirectSpecularColor: {r: 0.24511118, g: 0.23583394, b: 0.25094488, a: 0.65}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2887,6 +2887,7 @@ GameObject:
   - component: {fileID: 738559259}
   - component: {fileID: 738559258}
   - component: {fileID: 738559257}
+  - component: {fileID: 738559260}
   m_Layer: 0
   m_Name: Zone 1
   m_TagString: Untagged
@@ -2909,7 +2910,9 @@ MonoBehaviour:
   CollisionTag: CharacterTag
   Emitters:
   - Target: {fileID: 274270200}
-    Params: []
+    Params:
+    - Name: Music Horizontal
+      Value: 1
   TriggerEvent: 3
 --- !u!65 &738559258
 BoxCollider:
@@ -2922,7 +2925,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.47, y: 6.91, z: 5.48}
+  m_Size: {x: 7.47, y: 6.91, z: 7.14}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &738559259
 Transform:
@@ -2932,13 +2935,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738559256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.35, y: 4.21, z: 14.2}
+  m_LocalPosition: {x: -4.35, y: 4.21, z: 14.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &738559260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738559256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: Music Horizontal
+      Value: 0
+  TriggerEvent: 4
 --- !u!4 &747635990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5895921109282496624, guid: ec691380843541646a7f18b7c7384272,
@@ -4698,6 +4720,7 @@ GameObject:
   - component: {fileID: 1165073604}
   - component: {fileID: 1165073603}
   - component: {fileID: 1165073602}
+  - component: {fileID: 1165073605}
   m_Layer: 0
   m_Name: Zone 2
   m_TagString: Untagged
@@ -4720,7 +4743,9 @@ MonoBehaviour:
   CollisionTag: CharacterTag
   Emitters:
   - Target: {fileID: 274270200}
-    Params: []
+    Params:
+    - Name: Music Horizontal
+      Value: 1
   TriggerEvent: 3
 --- !u!65 &1165073603
 BoxCollider:
@@ -4750,6 +4775,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1165073605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165073601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: CharacterTag
+  Emitters:
+  - Target: {fileID: 274270200}
+    Params:
+    - Name: Music Horizontal
+      Value: 0
+  TriggerEvent: 4
 --- !u!4 &1175313918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7950644908328659727, guid: d184a8f503c347b4b9e8e5d5f816ef53,

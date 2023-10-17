@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Rooms.bank
   Name: Rooms
   StudioPath: bank:/Rooms
-  lastModified: 638330778952373453
+  lastModified: 638330777351578873
   FileSizes: []
   Exists: 1
 --- !u!114 &-8637250009146502898
@@ -128,30 +128,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-4960616113407441637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Music2/Crossfade
-  m_EditorClassIdentifier: 
-  Name: Crossfade
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3069690020
-    data2: 1552673543
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-3940150559000857030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,6 +236,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2924
+--- !u!114 &-1201404219644917002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Music2/Intensity '
+  m_EditorClassIdentifier: 
+  Name: 'Intensity '
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2652641514
+    data2: 1989114151
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1197302143012961054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +275,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638330778952307895
+  lastModified: 638331716398176339
   FileSizes: []
   Exists: 1
 --- !u!114 &-919430163998455293
@@ -407,7 +407,7 @@ MonoBehaviour:
   - {fileID: -1197302143012961054}
   StringsBanks:
   - {fileID: 5501180982174188996}
-  cacheTime: 638330778952416002
+  cacheTime: 638331716410306356
   cacheVersion: 131608
 --- !u!114 &703181370341251375
 MonoBehaviour:
@@ -532,8 +532,32 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638330778952402851
+  lastModified: 638330777354300905
   FileSizes: []
+  Exists: 1
+--- !u!114 &4220644704471682636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music2/Music Zones
+  m_EditorClassIdentifier: 
+  Name: Music Zones
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730869746
+    data2: 2128741129
+  Type: 1
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &4441165309061661563
 MonoBehaviour:
@@ -604,10 +628,10 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638330778952310077
+  lastModified: 638331716398185419
   FileSizes:
   - Name: 
-    Value: 2064
+    Value: 2120
   Exists: 1
 --- !u!114 &6300624028044987630
 MonoBehaviour:
@@ -624,7 +648,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 638330778952305670
+  lastModified: 638330777338276331
   FileSizes: []
   Exists: 1
 --- !u!114 &6681266324369704865
@@ -723,7 +747,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638330778952345778
+  lastModified: 638331716410306356
   FileSizes: []
   Exists: 1
 --- !u!114 &7860724911761427703
@@ -750,10 +774,11 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4960616113407441637}
+  - {fileID: 4220644704471682636}
+  - {fileID: -1201404219644917002}
   MinDistance: 1
   MaxDistance: 20
-  Length: 60000
+  Length: 215000
 --- !u!114 &8455740260384967923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -769,7 +794,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Weapon.bank
   Name: Weapon
   StudioPath: bank:/Weapon
-  lastModified: 638330778952416002
+  lastModified: 638330777355267615
   FileSizes: []
   Exists: 1
 --- !u!114 &8474010853783278229
