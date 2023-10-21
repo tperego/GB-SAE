@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Key : MonoBehaviour
 {
 
-    public string keyAppearSound;
     public string keyPickUpSound;
     public string keyType;
     public Text KeyNameText;
@@ -14,7 +13,6 @@ public class Key : MonoBehaviour
     void OnEnable()
     {
         KeyNameText.text = keyType;
-        FMODUnity.RuntimeManager.PlayOneShot(keyAppearSound, GetComponent<Transform>().position);
     }
 
     void OnTriggerEnter(Collider other)

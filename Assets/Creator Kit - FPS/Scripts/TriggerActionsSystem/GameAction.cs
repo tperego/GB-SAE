@@ -22,5 +22,6 @@ public abstract class GameTrigger : MonoBehaviour
     {
         foreach (GameAction g in actions)
             g.Activated();
+
     }
 }

@@ -10,6 +10,7 @@ using UnityEditor;
 /// </summary>
 public class TargetChecker : GameTrigger
 {
+    
     public Target[] targetsToCheck;
 
     void Update()
@@ -23,6 +24,7 @@ public class TargetChecker : GameTrigger
         if (allDone)
         {
             Trigger();
+
             Destroy(gameObject);
         }
     }
