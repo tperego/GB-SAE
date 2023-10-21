@@ -10,6 +10,8 @@ public class Lock : GameTrigger
 {
     public string keyType;
     public Text KeyNameText;
+    public string blobDissolveAudio;
+
 
 
     Canvas m_Canvas;
@@ -32,6 +34,8 @@ public class Lock : GameTrigger
         {
             keychain.UseKey(keyType);
             Opened();
+            FMODUnity.RuntimeManager.PlayOneShot(blobDissolveAudio, GetComponent<Transform>().position);
+
             //just destroy the script, if it's on the door we don't want to destroy the door.
             Destroy(this);
             Destroy(m_Canvas.gameObject);
@@ -55,6 +59,7 @@ public class LockEditor : Editor
 {
     SerializedProperty m_ActionListProperty;
     SerializedProperty m_KeyNameTextProperty;
+    SerializedProperty m_audioBlob;
     Lock m_Lock;
 
     int m_KeyTypeIndex = -1;
@@ -65,6 +70,7 @@ public class LockEditor : Editor
         m_Lock = target as Lock;
         m_ActionListProperty = serializedObject.FindProperty("actions");
         m_KeyNameTextProperty = serializedObject.FindProperty("KeyNameText");
+        m_audioBlob = serializedObject.FindProperty("blobDissolveAudio");
 
         var allKeys = Resources.FindObjectsOfTypeAll<Key>();
         foreach (var key in allKeys)
@@ -80,6 +86,7 @@ public class LockEditor : Editor
     
     public override void OnInspectorGUI()
     {
+        EditorGUILayout.PropertyField(m_audioBlob);
         EditorGUILayout.PropertyField(m_KeyNameTextProperty);
         EditorGUILayout.PropertyField(m_ActionListProperty, true);
 

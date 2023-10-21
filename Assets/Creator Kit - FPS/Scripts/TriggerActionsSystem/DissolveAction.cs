@@ -52,7 +52,7 @@ public class DissolveAction : GameAction
             foreach (var gameAction in FinishedAction)
             {
                 gameAction.Activated();
-                
+
             }
             
             Destroy(gameObject);
@@ -63,5 +63,9 @@ public class DissolveAction : GameAction
     {
         enabled = true;
         m_ParticleSystem.Play();
+
+        
+
+
     }
 }
