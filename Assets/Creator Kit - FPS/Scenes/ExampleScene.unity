@@ -1271,7 +1271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274270201}
-  - component: {fileID: 274270200}
+  - component: {fileID: 274270202}
   m_Layer: 0
   m_Name: MUSIC
   m_TagString: Untagged
@@ -1279,7 +1279,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &274270200
+--- !u!4 &274270201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274270199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2801527, y: -0.22229525, z: -0.46996656}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &274270202
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1298,7 +1313,7 @@ MonoBehaviour:
       Data2: 1169627860
       Data3: -1324141394
       Data4: -512011668
-    Path: event:/System/Music2
+    Path: event:/Music/Music2
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -1310,21 +1325,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!4 &274270201
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274270199}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2801527, y: -0.22229525, z: -0.46996656}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &287914043 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7176684572504646140, guid: 8a0509da488e18e41bf5b29cb6422b27,
@@ -2639,11 +2639,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: 'Intensity '
-      Value: 0
-    - Name: Music Horizontal
+    - Name: Intensity
       Value: 0
   TriggerEvent: 4
 --- !u!114 &643836449
@@ -2660,11 +2658,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: 'Intensity '
-      Value: 1
-    - Name: Music Horizontal
+    - Name: Intensity
       Value: 1
   TriggerEvent: 3
 --- !u!65 &643836450
@@ -2850,13 +2846,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: Music Zones
-      Value: 0
-    - Name: 'Intensity '
-      Value: 0
-    - Name: Music Horizontal
+    - Name: Intensity
       Value: 0
   TriggerEvent: 4
 --- !u!114 &670291525
@@ -2873,13 +2865,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: Music Zones
-      Value: 1
-    - Name: 'Intensity '
-      Value: 1
-    - Name: Music Horizontal
+    - Name: Intensity
       Value: 1
   TriggerEvent: 3
 --- !u!65 &670291526
@@ -3092,11 +3080,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: 'Intensity '
+    - Name: MoodZone
       Value: 1
-    - Name: Music Horizontal
+    - Name: DangerZones
       Value: 1
   TriggerEvent: 3
 --- !u!65 &738559258
@@ -3141,11 +3129,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: 'Intensity '
+    - Name: MoodZone
       Value: 0
-    - Name: Music Horizontal
+    - Name: DangerZones
       Value: 0
   TriggerEvent: 4
 --- !u!4 &747635990 stripped
@@ -3988,11 +3976,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: Music Zones
-      Value: 0
-    - Name: Music Horizontal
+    - Name: MoodZone
       Value: 0
   TriggerEvent: 4
 --- !u!114 &915482081
@@ -4009,11 +3995,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: Music Zones
-      Value: 1
-    - Name: Music Horizontal
+    - Name: MoodZone
       Value: 1
   TriggerEvent: 3
 --- !u!65 &915482082
@@ -5149,11 +5133,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: Music Zones
+    - Name: MoodZone
       Value: 1
-    - Name: Music Horizontal
+    - Name: DangerZones
       Value: 1
   TriggerEvent: 3
 --- !u!65 &1165073603
@@ -5198,11 +5182,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: Music Zones
+    - Name: MoodZone
       Value: 0
-    - Name: Music Horizontal
+    - Name: DangerZones
       Value: 0
   TriggerEvent: 4
 --- !u!4 &1175313918 stripped
@@ -8937,11 +8921,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: Music Zones
-      Value: 0
-    - Name: Music Horizontal
+    - Name: MoodZone
       Value: 0
   TriggerEvent: 4
 --- !u!114 &2068406574
@@ -8958,11 +8940,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: CharacterTag
   Emitters:
-  - Target: {fileID: 274270200}
+  - Target: {fileID: 274270202}
     Params:
-    - Name: Music Zones
-      Value: 1
-    - Name: Music Horizontal
+    - Name: MoodZone
       Value: 1
   TriggerEvent: 3
 --- !u!65 &2068406575

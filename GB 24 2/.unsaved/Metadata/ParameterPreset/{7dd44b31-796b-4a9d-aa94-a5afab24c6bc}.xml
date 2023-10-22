@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{7dd44b31-796b-4a9d-aa94-a5afab24c6bc}">
 		<property name="name">
-			<value>DangerZones</value>
+			<value>MoodZone</value>
 		</property>
 		<relationship name="folder">
 			<destination>{acadeca5-828e-4016-9350-93108069c70c}</destination>
