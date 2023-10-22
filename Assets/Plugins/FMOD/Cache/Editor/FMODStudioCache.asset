@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Weapon.bank
   Name: Weapon
   StudioPath: bank:/Weapon
-  lastModified: 638331804292498805
+  lastModified: 638336040672109094
   FileSizes: []
   Exists: 1
 --- !u!114 &-8493125183079478226
@@ -45,7 +45,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-8428803250164951004
+--- !u!114 &-8233312338362632505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,21 +54,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Music2/MoodZone
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Rooms/StomachRoom
   m_EditorClassIdentifier: 
-  Name: MoodZone
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2730869746
-    data2: 2128741129
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: event:/Rooms/StomachRoom
+  Guid:
+    Data1: -1736426966
+    Data2: 1120697219
+    Data3: 890962591
+    Data4: 864338795
+  Banks:
+  - {fileID: 1265074201281330280}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16607
 --- !u!114 &-7308274610612924962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,30 +126,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-5326804387032767908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Music2/Intensity
-  m_EditorClassIdentifier: 
-  Name: Intensity
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2652641514
-    data2: 1989114151
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-5166304322880251161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,7 +168,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 638331804264744365
+  lastModified: 638336040670518631
   FileSizes: []
   Exists: 1
 --- !u!114 &-4157905079737087042
@@ -219,6 +198,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4113612612930616497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/MoodZone
+  m_EditorClassIdentifier: 
+  Name: MoodZone
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2730869746
+    data2: 2128741129
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3561105972397945101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,9 +237,36 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638335167417972949
+  lastModified: 638336065340705978
   FileSizes: []
   Exists: 1
+--- !u!114 &-3098128304387328382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Blood Cell/RedBloodcellIdle
+  m_EditorClassIdentifier: 
+  Path: event:/Blood Cell/RedBloodcellIdle
+  Guid:
+    Data1: -1018375651
+    Data2: 1279835053
+    Data3: -2031740014
+    Data4: 384330215
+  Banks:
+  - {fileID: -3561105972397945101}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8334
 --- !u!114 &-3063528791448363285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,7 +321,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2386132420493607001
+--- !u!114 &-2459603178732231469
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -301,23 +331,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Germ/SplatterGerm
+  m_Name: event:/Music/Music
   m_EditorClassIdentifier: 
-  Path: event:/Germ/SplatterGerm
+  Path: event:/Music/Music
   Guid:
-    Data1: 526377625
-    Data2: 1130933339
-    Data3: -1379769451
-    Data4: -1339936360
+    Data1: 1678654867
+    Data2: 1169627860
+    Data3: -1324141394
+    Data4: -512011668
   Banks:
-  - {fileID: -3561105972397945101}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
+  - {fileID: -548410471885443089}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4113612612930616497}
+  - {fileID: 6170885201506172672}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 215000
 --- !u!114 &-1580309623909561386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,6 +431,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-661509965668364036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Germ/HitSplatterGerm
+  m_EditorClassIdentifier: 
+  Path: event:/Germ/HitSplatterGerm
+  Guid:
+    Data1: 526377625
+    Data2: 1130933339
+    Data3: -1379769451
+    Data4: -1339936360
+  Banks:
+  - {fileID: -3561105972397945101}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-548410471885443089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,38 +473,9 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638335742328862328
+  lastModified: 638336039729392876
   FileSizes: []
   Exists: 1
---- !u!114 &-57095658370745737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Music2
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Music2
-  Guid:
-    Data1: 1678654867
-    Data2: 1169627860
-    Data3: -1324141394
-    Data4: -512011668
-  Banks:
-  - {fileID: -548410471885443089}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -8428803250164951004}
-  - {fileID: -5326804387032767908}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 215000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -470,59 +500,31 @@ MonoBehaviour:
   - {fileID: -738883209544457656}
   - {fileID: -1580309623909561386}
   - {fileID: -6520593410283073518}
-  - {fileID: 4556110888860603358}
   - {fileID: -3063528791448363285}
   - {fileID: 1541641062356272434}
   - {fileID: -7308274610612924962}
   - {fileID: 3916619758578773186}
   - {fileID: 5285666216644883124}
-  - {fileID: 1974881027094941757}
-  - {fileID: 484561499233435280}
   - {fileID: -2791018551254125873}
   - {fileID: 900574233991849684}
   - {fileID: -4157905079737087042}
   - {fileID: 5664983256754102890}
-  - {fileID: -2386132420493607001}
   - {fileID: 545560016799288686}
   - {fileID: -1078553759512033178}
   - {fileID: 2136784240376790352}
   - {fileID: -5166304322880251161}
   - {fileID: -8493125183079478226}
-  - {fileID: -57095658370745737}
+  - {fileID: -2459603178732231469}
+  - {fileID: -8233312338362632505}
+  - {fileID: -3098128304387328382}
+  - {fileID: -661509965668364036}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1279592215226119035}
   StringsBanks:
   - {fileID: 4751771138499937320}
-  cacheTime: 638335742328862328
+  cacheTime: 638336065340705978
   cacheVersion: 131608
---- !u!114 &484561499233435280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Gun/Projectile
-  m_EditorClassIdentifier: 
-  Path: event:/Gun/Projectile
-  Guid:
-    Data1: -603150816
-    Data2: 1303400884
-    Data3: 701682341
-    Data4: 760365922
-  Banks:
-  - {fileID: -3561105972397945101}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &545560016799288686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -593,7 +595,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Rooms.bank
   Name: Rooms
   StudioPath: bank:/Rooms
-  lastModified: 638331830825286923
+  lastModified: 638336039735115992
   FileSizes: []
   Exists: 1
 --- !u!114 &1279592215226119035
@@ -611,7 +613,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638335742328516988
+  lastModified: 638336065340376097
   FileSizes: []
   Exists: 1
 --- !u!114 &1541641062356272434
@@ -641,33 +643,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2924
---- !u!114 &1974881027094941757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Blood Cell/SFX_RedBloodcellIdle
-  m_EditorClassIdentifier: 
-  Path: event:/Blood Cell/SFX_RedBloodcellIdle
-  Guid:
-    Data1: -1018375651
-    Data2: 1279835053
-    Data3: -2031740014
-    Data4: 384330215
-  Banks:
-  - {fileID: -3561105972397945101}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 8334
 --- !u!114 &2136784240376790352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,33 +698,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &4556110888860603358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Rooms/SFX_Acid
-  m_EditorClassIdentifier: 
-  Path: event:/Rooms/SFX_Acid
-  Guid:
-    Data1: -1736426966
-    Data2: 1120697219
-    Data3: 890962591
-    Data4: 864338795
-  Banks:
-  - {fileID: 1265074201281330280}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 16607
 --- !u!114 &4751771138499937320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -765,10 +713,10 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638335742328525753
+  lastModified: 638336065340392612
   FileSizes:
   - Name: 
-    Value: 2244
+    Value: 2192
   Exists: 1
 --- !u!114 &5285666216644883124
 MonoBehaviour:
@@ -824,3 +772,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6170885201506172672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Intensity
+  m_EditorClassIdentifier: 
+  Name: Intensity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2652641514
+    data2: 1989114151
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1

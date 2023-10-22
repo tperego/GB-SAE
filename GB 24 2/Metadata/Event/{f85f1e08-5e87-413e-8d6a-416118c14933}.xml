@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f85f1e08-5e87-413e-8d6a-416118c14933}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>SFX_GrenadeThrow</value>
 		</property>

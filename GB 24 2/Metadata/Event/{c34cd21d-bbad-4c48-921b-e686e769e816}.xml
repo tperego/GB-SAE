@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c34cd21d-bbad-4c48-921b-e686e769e816}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
-			<value>SFX_RedBloodcellIdle</value>
+			<value>RedBloodcellIdle</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

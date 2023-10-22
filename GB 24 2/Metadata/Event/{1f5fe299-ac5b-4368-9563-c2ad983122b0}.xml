@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1f5fe299-ac5b-4368-9563-c2ad983122b0}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
-			<value>SplatterGerm</value>
+			<value>HitSplatterGerm</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
