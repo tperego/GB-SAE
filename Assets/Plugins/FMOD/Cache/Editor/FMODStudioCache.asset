@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Weapon.bank
   Name: Weapon
   StudioPath: bank:/Weapon
-  lastModified: 638336040672109094
+  lastModified: 638337622448243832
   FileSizes: []
   Exists: 1
 --- !u!114 &-8493125183079478226
@@ -65,7 +65,7 @@ MonoBehaviour:
     Data4: 864338795
   Banks:
   - {fileID: 1265074201281330280}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -168,7 +168,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Character.bank
   Name: Character
   StudioPath: bank:/Character
-  lastModified: 638336040670518631
+  lastModified: 638337622446070461
   FileSizes: []
   Exists: 1
 --- !u!114 &-4157905079737087042
@@ -237,7 +237,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638336065340705978
+  lastModified: 638337622448149653
   FileSizes: []
   Exists: 1
 --- !u!114 &-3098128304387328382
@@ -266,7 +266,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 8334
+  Length: 0
 --- !u!114 &-3063528791448363285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,7 +287,7 @@ MonoBehaviour:
     Data4: -1849820837
   Banks:
   - {fileID: 1265074201281330280}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -341,7 +341,7 @@ MonoBehaviour:
     Data4: -512011668
   Banks:
   - {fileID: -548410471885443089}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
@@ -473,7 +473,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638336039729392876
+  lastModified: 638337622446139645
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -523,7 +523,7 @@ MonoBehaviour:
   - {fileID: 1279592215226119035}
   StringsBanks:
   - {fileID: 4751771138499937320}
-  cacheTime: 638336065340705978
+  cacheTime: 638337622448243832
   cacheVersion: 131608
 --- !u!114 &545560016799288686
 MonoBehaviour:
@@ -544,8 +544,8 @@ MonoBehaviour:
     Data3: 628418730
     Data4: -1973600309
   Banks:
-  - {fileID: -8954501767026056204}
   - {fileID: -3561105972397945101}
+  - {fileID: -8954501767026056204}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -595,7 +595,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Rooms.bank
   Name: Rooms
   StudioPath: bank:/Rooms
-  lastModified: 638336039735115992
+  lastModified: 638337622446202894
   FileSizes: []
   Exists: 1
 --- !u!114 &1279592215226119035
@@ -613,7 +613,7 @@ MonoBehaviour:
   Path: Fmod Banks /Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638336065340376097
+  lastModified: 638336065340376096
   FileSizes: []
   Exists: 1
 --- !u!114 &1541641062356272434
@@ -689,8 +689,8 @@ MonoBehaviour:
     Data3: 78507671
     Data4: 808128372
   Banks:
-  - {fileID: -8954501767026056204}
   - {fileID: -3561105972397945101}
+  - {fileID: -8954501767026056204}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -744,7 +744,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4000
+  Length: 0
 --- !u!114 &5664983256754102890
 MonoBehaviour:
   m_ObjectHideFlags: 0
