@@ -8,7 +8,7 @@
 			<value>SFX_PistolReload</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7e898d1e-c8c9-4030-bf33-3264d8571690}</destination>
@@ -85,11 +85,7 @@
 			<destination>{473cb9f3-a31f-4cd4-8469-4a14923be66b}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{2790ebbc-dc69-4a6c-92b6-856f8caa475a}">
-		<relationship name="sounds">
-			<destination>{ee866cd6-1e74-4eb8-bbc9-b6cdbba6f54e}</destination>
-		</relationship>
-	</object>
+	<object class="MultiSound" id="{2790ebbc-dc69-4a6c-92b6-856f8caa475a}" />
 	<object class="MixerBusEffectChain" id="{8e1b6114-16c3-42e4-b1b5-e11aadf1f5e7}">
 		<relationship name="effects">
 			<destination>{a013a941-12ef-48d4-a683-2898aae33418}</destination>
@@ -102,11 +98,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3f03d127-cbfb-49d3-9957-97652e65112d}" />
-	<object class="SingleSound" id="{ee866cd6-1e74-4eb8-bbc9-b6cdbba6f54e}">
-		<relationship name="audioFile">
-			<destination>{1b7ceeb5-d6c1-43c2-a003-648cebccff43}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{a013a941-12ef-48d4-a683-2898aae33418}" />
 	<object class="MixerBusFader" id="{dde8bd64-a4b4-4360-a5dc-f0cb3c925435}" />
 </objects>
