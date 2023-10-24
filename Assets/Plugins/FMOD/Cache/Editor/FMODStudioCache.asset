@@ -65,7 +65,7 @@ MonoBehaviour:
     Data4: 864338795
   Banks:
   - {fileID: 1265074201281330280}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -266,7 +266,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 8334
+  Length: 0
 --- !u!114 &-3063528791448363285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,7 +287,7 @@ MonoBehaviour:
     Data4: -1849820837
   Banks:
   - {fileID: 1265074201281330280}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -341,7 +341,7 @@ MonoBehaviour:
     Data4: -512011668
   Banks:
   - {fileID: -548410471885443089}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
@@ -744,7 +744,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4000
+  Length: 0
 --- !u!114 &5664983256754102890
 MonoBehaviour:
   m_ObjectHideFlags: 0
