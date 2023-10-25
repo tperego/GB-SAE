@@ -1,0 +1,35 @@
+{8bd55eb1-ed97-4f69-bae2-d95bad5573c0} bank:/Character
+{e53d9dc5-95e0-45bd-80c1-5fe3420a981e} bank:/Master
+{7d20bd11-e49b-09ff-0688-d51db3f99e86} bank:/Master.strings
+{a468fe36-f393-4f56-8018-d1bf7127493f} bank:/Music
+{13eccd3e-fc84-41d4-b598-8d09fd96fadc} bank:/Rooms
+{9ad720cf-5a91-4247-952d-378f18b10419} bank:/SFX
+{7b4ef83f-8c85-42bf-b866-2ae40f1b9858} bank:/Weapon
+{e349200f-eda1-4bd2-b1c7-9710133bb678} bus:/
+{bcabeff0-bc8d-4807-8867-adad9331a0fc} bus:/Creatures
+{3686a92c-2c2a-4bcf-94a3-945b757df12d} bus:/Music
+{2f27e2f7-28c8-4eee-bf24-d699b3ea0995} bus:/Reverb
+{2c2b8958-9f87-4fe8-aece-d68a14aaa32f} bus:/Rooms
+{20e34d00-1415-4b46-bafc-4b10f83a3897} event:/Blood Cell/BloodCellHit
+{c34cd21d-bbad-4c48-921b-e686e769e816} event:/Blood Cell/RedBloodcellIdle
+{a482d36d-fcb9-4839-a26f-24477f382b0c} event:/Character/Footsteps
+{e5d288ef-6524-4a01-832c-45c49c648807} event:/Character/Jump
+{3ee40760-7869-4e4d-b11a-48f072532713} event:/Character/Land
+{1f5fe299-ac5b-4368-9563-c2ad983122b0} event:/Germ/HitSplatterGerm
+{8e094c42-1ee6-4800-9550-81f18c44729e} event:/Germ/IdleGerm
+{4d5bcefd-f435-4436-91b2-1b8cb4a2e686} event:/Gun/SFX_GrenadeExplode
+{f85f1e08-5e87-413e-8d6a-416118c14933} event:/Gun/SFX_GrenadeThrow
+{48a3f0e9-5924-476b-aae8-7425cb3f5d8a} event:/Gun/SFX_MachinegunReload
+{b1950203-210e-4adb-97ee-ad04740f2b30} event:/Gun/SFX_MachinegunShoot
+{bb26f1d1-7368-4079-9d51-30f5e1fb8a45} event:/Gun/SFX_PistolReload
+{65f7a27b-c548-4955-bf28-607ef1f52e6f} event:/Gun/SFX_PistolShoot
+{640e3d93-1ad4-45b7-ae34-13b16c527be1} event:/Music/Music
+{82dcc54c-8455-4330-9248-06d85bf9bd91} event:/Rooms/BrainRoom
+{e76ee979-cc28-433e-ae85-bacda1e9da76} event:/Rooms/HeartRoom
+{98803a2a-7b83-42cc-9f02-1b356bc38433} event:/Rooms/StomachRoom
+{c5507c36-7c9b-4298-8fa9-4b87a608c242} event:/System/ENDGAME
+{261d1c0e-5639-422d-b061-2d83e2aa0c7f} event:/System/FatBlobDissolve
+{1f750565-117f-4157-82ae-2f579fdf804e} event:/System/Key Apear
+{220a9073-3f90-4971-8795-705169327931} event:/System/Key Pickup
+{f8c6e616-0560-4bfb-8420-6f7eb81021d5} parameter:/Intensity
+{fadd7a13-0972-4899-b64e-1caf79bcc0bd} parameter:/MoodZone
